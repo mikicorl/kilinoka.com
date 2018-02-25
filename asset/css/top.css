@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* top
+================================================== */
+.top-area {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.top-area .top-area-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.top-area .top-area-bg-back {
+	background: transparent url("/asset/img/top/pc/top-area-bg-pink.jpg") no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.top-area .top-area-bg-front {
+	background: transparent url("/asset/img/top/pc/top-area-bg-blue.jpg") no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+@media screen and (max-width: 767px) {
+	.top-area {
+		margin-top: 80px;
+		height: 400px;
+	}
+	.top-area .top-area-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 400px;
+	}
+	.top-area .top-area-bg-back {
+		background: transparent url("/asset/img/top/sp/top-area-bg-pink.jpg") no-repeat center;
+		background-size: 100% 400px;
+	}
+	.top-area .top-area-bg-front {
+		background: transparent url("/asset/img/top/sp/top-area-bg-blue.jpg") no-repeat center;
+		background-size: 100% 400px;
+	}
+}
+.top-box {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 310px;
+	height: 310px;
+	background: transparent url("/asset/img/top/pc/top-box.png") no-repeat center top;
+	background-size: 310px 310px;
+}
+@media screen and (max-width: 767px) {
+	.top-box {
+		width: 270px;
+		height: 270px;
+		background: transparent url("/asset/img/top/pc/top-box.png") no-repeat center top;
+		background-size: 270px 270px;
+	}
+}
+.top-logo img {
+	margin: 97px auto 30px auto;
+	width: 218px;
+	height: 25px;
+}
+@media screen and (max-width: 767px) {
+	.top-logo img {
+		margin: 82px auto 30px auto;
+		width: 160px;
+		height: 19px;
+	}
+}
+.top-lead img {
+	width: 202px;
+	height: 61px;
+	margin: 0 auto 30px auto;
+}
+@media screen and (max-width: 767px) {
+	.top-lead img {
+		width: 159px;
+		height: 56px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.top-scroll {
+		position: absolute;
+		bottom: 10%;
+		left: 50%;
+		margin-left: -32px;
+		cursor: pointer;
+	}
+	.top-scroll img {
+		display: block;
+		width: 64px;
+		height: 10px;
+		margin-bottom: 10px;
+	}
+	.top-scroll i {
+		font-size: 200%;
+	}
+}
+
+/* animate.css
+================================================== */
+.animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+.animated.hinge {
+  animation-duration: 2s;
+}
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut {
+  animation-duration: .75s;
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInDown {
+  animation-name: fadeInDown;
+}

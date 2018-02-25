@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* interview
+================================================== */
+@media screen and (min-width: 768px) {
+	.interview {
+		background: transparent url("/asset/img/interview/pc/interview-bg.jpg") no-repeat center top;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+	}
+}
+.interview-content {
+	width: 688px;
+	margin: 0 auto;
+	padding: 0 60px;
+	color: #000;
+	background: #fff;
+}
+@media screen and (max-width: 767px) {
+	.interview-content {
+		width: auto;
+		padding: 0 25px;
+	}
+}
+article .ogp {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 426px;
+	position: relative;
+	margin-bottom: 0;
+}
+article .ogp img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: auto;
+	height: 100%;
+}
+.article-body img {
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 767px) {
+	article .ogp {height: 203px;}
+}
+@media screen and (min-width: 360px) {
+	article .ogp {height: 233px;}
+}
+@media screen and (min-width: 375px) {
+	article .ogp {height: 244px;}
+}
+@media screen and (min-width: 412px) {
+	article .ogp {height: 272px;}
+}
+@media screen and (min-width: 414px) {
+	article .ogp {height: 273px;}
+}
+@media screen and (min-width: 768px) {
+	article .ogp {height: 426px;}
+}
+.ogp-caption {
+	display: block;
+	color: #A0A7AE;
+	font-size: 78%;
+	line-height: 1.8em;
+	letter-spacing: 0.08em;
+	margin: 10px 0 50px 0;
+	text-align: right;
+}
+@media screen and (max-width: 767px) {
+	.ogp-caption {text-align: left;}
+}
+article h2 {
+	text-align: left;
+	font-size: 150%;
+	line-height: 1.5em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin-bottom: 50px;
+}
+article p {
+	text-align: left;
+	font-size: 114%;
+	line-height: 2.0em;
+	margin-bottom: 50px;
+}
+.article-title {
+	margin-bottom: 10px;
+	font-size: 140%;
+	font-weight: bold;
+	line-height: 1.6em;
+	letter-spacing: 0.1em;
+}
+@media screen and (max-width: 767px) {
+	.article-title {
+		text-align: left;
+		letter-spacing: 0em;
+	}
+}
+
+/* article-date
+================================================== */
+.article-date {
+	color: #333;
+	font-size: 78%;
+	font-weight: bold;
+	line-height: 1.8em;
+	letter-spacing: 0.2em;
+	margin-bottom: 50px;
+	text-align: center;
+}
+@media screen and (max-width: 767px) {
+	.article-date {
+		text-align: left;
+	}
+}
+
+/* article-sns
+================================================== */
+.article-sns {
+	margin: 0 0 50px -5px;
+	border-collapse: separate;
+	border-spacing: 5px 0;
+}
+.article-sns li {
+	display: table-cell;
+	vertical-align: middle;
+}
+@media screen and (max-width: 767px) {
+	.article-sns {
+		text-align: left;
+	}
+	.article-sns li {
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+}
+
+/* article-credit
+================================================== */
+.article-credit {
+	float: right;
+	color: #bac2ca;
+	font-size: 78%;
+	line-height: 1.8em;
+	letter-spacing: 0.15em;
+	margin-bottom: 5px;
+}
+@media screen and (max-width: 767px) {
+	.article-credit {
+		float: none;
+		text-align: left;
+	}
+}
+/* article-body
+================================================== */
+.interviewer {
+	font-size: 100%;
+	color: #566679;
+	letter-spacing: 0.05em;
+}
+.interviewer::before {
+	content: '――';
+	letter-spacing: -0.1em;
+	margin-right: 0.5em;
+}
+.person-name {
+	color: #ff907f;
+	font-weight: bold;
+	margin-right: 1.0em;
+}
+.notice {
+	overflow: hidden;
+}
+.annotation {
+	margin: 0 0.2em;
+}
+
+/* article-box
+================================================== */
+.article-box {
+	text-align: left;
+	position: relative;
+	width: 568px;
+	padding: 25px 55px 2em 55px;
+	margin: 0 auto;
+	background: transparent url("/asset/img/interview/pc/article-box.png") repeat-y center top;
+	background-size: 568px 25px;
+	overflow: hidden;
+}
+.article-box-header {
+	padding-top: 45px;
+	background: transparent url("/asset/img/interview/pc/article-box-header.png") no-repeat center top;
+	background-size: 568px 45px;
+}
+.article-box-footer {
+	margin-bottom: 70px;
+	padding-bottom: 29px;
+	background: transparent url("/asset/img/interview/pc/article-box-footer.png") no-repeat center bottom;
+	background-size: 568px 29px;
+}
+.article-box-parent {
+	width: 47%;
+	float: left;
+}
+.article-box-children {
+	width: 47%;
+	float: right;
+}
+.information-date {
+	position: absolute;
+	right: 55px;
+	bottom: 0;
+	color: #333;
+	font-size: 78%;
+	font-weight: bold;
+	line-height: 1.8em;
+	letter-spacing: 0.1em;
+	margin-bottom: 0;
+}
+@media screen and (max-width: 767px) {
+	.article-box {
+		width: auto;
+		padding: 0px 10% 2em 10%;
+		background: transparent url("/asset/img/interview/sp/article-box.png") repeat-y center top;
+		background-size: 100% auto;
+	}
+	.article-box-header {
+		padding-top: 44px;
+		background: transparent url("/asset/img/interview/sp/article-box-header.png") no-repeat center top;
+		background-size: 100% auto;
+	}
+	.article-box-footer {
+		padding-bottom: 29px;
+		background: transparent url("/asset/img/interview/sp/article-box-footer.png") no-repeat center bottom;
+		background-size: 100% auto;
+	}
+	.article-box .children dd:last-child {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	.article-box-parent {
+		width: 100%;
+		float: none;
+	}
+	.article-box-children {
+		width: 100%;
+		float: none;
+	}
+	.information-date {
+		right: 10%;
+	}
+}
+@media screen and (min-width: 360px) {
+	.article-box-header {padding-top: 50px;}
+	.article-box-footer {padding-bottom: 33px;}
+}
+@media screen and (min-width: 375px) {
+	.article-box-header {padding-top: 54px;}
+	.article-box-footer {padding-bottom: 34px;}
+}
+@media screen and (min-width: 412px) {
+	.article-box-header {padding-top: 60px;}
+	.article-box-footer {padding-bottom: 38px;}
+}
+@media screen and (min-width: 768px) {
+	.article-box-header {padding-top: 45px;}
+	.article-box-footer {padding-bottom: 29px;}
+}
+.article-box h2 {
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #000;
+}
+.article-box dt,
+.article-box dd {
+	line-height: 1.5em;
+}
+.article-box dt {
+	font-weight: bold;
+}
+.article-box dd {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.article-box dd:last-child {
+	border-bottom: none;
+}
+
+/* article-body ul
+================================================== */
+.article-body ul {
+	text-align: left;
+	margin-bottom: 50px;
+	padding: 20px;
+	border: 1px solid #A0A7AE;
+}
+.article-body ul li {
+	line-height: 2.0em;
+}

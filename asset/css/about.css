@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* about
+================================================== */
+.about {
+	background: #ecf7fe url("/asset/img/about/about-bg.png") no-repeat center top;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+@media screen and (min-width: 768px) {
+	.about nav {
+		background: none;
+	}
+}
+.about-box {
+	position: relative;
+	width: 515px;
+	padding: 50px 60px;
+	margin: 0 auto;
+	background: transparent url("/asset/img/about/about-box.png") repeat-y center top;
+	background-size: 515px 25px;
+}
+.about-box-header {
+	padding-top: 26px;
+	background: transparent url("/asset/img/about/about-box-header.png") no-repeat center top;
+	background-size: 515px 26px;
+}
+.about-box-footer {
+	margin-bottom: 100px;
+	padding-bottom: 26px;
+	background: transparent url("/asset/img/about/about-box-footer.png") no-repeat center bottom;
+	background-size: 515px 26px;
+}
+@media screen and (max-width: 767px) {
+	.about {
+		background: #ecf7fe url("/asset/img/about/about-bg.png") no-repeat center top;
+		-webkit-background-size: auto 900px;
+		-moz-background-size: auto 900px;
+		-o-background-size: auto 900px;
+		background-size: auto 900px;
+	}
+	.about-box {
+		width: auto;
+		text-align: left;
+	}
+	.about-box {
+		padding: 50px 15% 10px 15%;
+		background: transparent url("/asset/img/about/about-box.png") repeat-y center top;
+		background-size: 85% auto;
+	}
+	.about-box-header {
+		padding-top: 14px;
+		background: transparent url("/asset/img/about/about-box-header.png") no-repeat center top;
+		background-size: 85% auto;
+	}
+	.about-box-footer {
+		margin-bottom: 50px;
+		padding-bottom: 14px;
+		background: transparent url("/asset/img/about/about-box-footer.png") no-repeat center bottom;
+		background-size: 85% auto;
+	}
+}
+@media screen and (min-width: 360px) {
+	.about-box-header {padding-top: 15px;}
+	.about-box-footer {padding-bottom: 15px;}
+}
+@media screen and (min-width: 375px) {
+	.about-box-header {padding-top: 16px;}
+	.about-box-footer {padding-bottom: 16px;}
+}
+@media screen and (min-width: 412px) {
+	.about-box-header {padding-top: 17px;}
+	.about-box-footer {padding-bottom: 17px;}
+}
+@media screen and (min-width: 600px) {
+	.about-box-header {padding-top: 25px;}
+	.about-box-footer {padding-bottom: 25px;}
+}
+@media screen and (min-width: 768px) {
+	.about-box-header {padding-top: 26px;}
+	.about-box-footer {padding-bottom: 26px;}
+}
+.about-logo {
+	margin-bottom: 50px;
+	text-align: center;
+}
+.about-logo img {
+	width: 218px;
+	height: 25px;
+}
+.about-text {
+	line-height: 2.4em;
+	letter-spacing: 0.05em;
+	margin-bottom: 20px;
+}
+.about-subtitle {
+	margin: 50px auto 40px auto;
+	padding-top: 50px;
+	border-top: 1px solid #566679;
+	text-align: center;
+}
+@media screen and (min-width: 768px) {
+	.about-subtitle {
+		display: inline-block;
+	}
+}
+.about-subtitle img {
+	width: 227px;
+	height: 19px;
+}
+.about-photo {
+	text-align: center;
+}
+.about-photo img {
+	width: 212px;
+	height: 150px;
+}
+@media screen and (max-width: 767px) {
+	.about-photo img {
+		width: 90%;
+		height: auto;
+	}
+}
+.about-profile {
+	position: relative;
+	padding-top: 75px;
+	background: #fff;
+}
+.about-profile-icon {
+	position: absolute;
+	top: -53px;
+	left: 50%;
+	margin-left: -53px;
+}
+.about-profile-icon img {
+	width: 106px;
+	height: 106px;
+}
+.about-profile-founder {
+	margin-bottom: 20px;
+	letter-spacing: 0.1em;
+}
+.about-profile-name {
+	margin-bottom: 30px;
+	font-size: 120%;
+	font-weight: bold;
+	letter-spacing: 0.3em;
+}
+.about-profile-text {
+	width: 515px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 93%;
+	line-height: 2.4em;
+	letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+	.about-profile-text {
+		width: auto;
+		text-align: left;
+		padding: 0 25px;
+	}
+}
+.about-profile-sns {
+	font-size: 220%;
+	margin-bottom: 30px;
+}
