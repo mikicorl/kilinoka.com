@@ -84,6 +84,6 @@ $(function() {
 
   /* ----------- */
 
-  var emailAddress = ["om", "a.c", "nok", "ili", "t@k", "tac", "con"].reverse().join("");
-  $(".js-contact-email-link").attr("href", "mailto:" + emailAddress).text(emailAddress);
+  // var emailAddress = ["om", "a.c", "nok", "ili", "t@k", "tac", "con"].reverse().join("");
+  // $(".js-contact-email-link").attr("href", "mailto:" + emailAddress).text(emailAddress);
 });
