@@ -309,7 +309,10 @@ article a:visited {
 	width: 100%;
 	text-align: left;
 	line-height: 2.0em;
-	overflow: hidden;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
 }
 .interview-list li {
 	width: 400px;
